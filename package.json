@@ -1,0 +1,52 @@
+{
+  "name": "cucumber-ui-test-framework",
+  "version": "1.3.2",
+  "description": "Project to run WebdriverIO tests with Cucumber",
+  "scripts": {
+    "dev:chrome": "yarn run wdio src/resources/config/wdio.chrome.conf.js --suite features",
+    "dev:chrome-headless": "yarn run wdio src/resources/config/wdio.chrome.headless.conf.js --suite features"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webdriverio/cucumber-boilerplate.git"
+  },
+  "keywords": [
+    "webdriverio"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/plugin-proposal-export-default-from": "^7.5.2",
+    "@babel/preset-env": "^7.4.2",
+    "@babel/register": "^7.4.0",
+    "@types/cucumber": "^4.0.5",
+    "@wdio/cli": "^5.13.2",
+    "@wdio/config": "^5.13.2",
+    "@wdio/cucumber-framework": "^5.13.2",
+    "@wdio/local-runner": "^5.13.2",
+    "@wdio/selenium-standalone-service": "^5.13.2",
+    "@wdio/spec-reporter": "^5.13.2",
+    "@wdio/sync": "^5.13.2",
+    "chai": "^4.1.2",
+    "cucumber": "^4.2.1",
+    "eslint-plugin-wdio": "^5.7.8",
+    "file-system": "^2.2.2",
+    "mjpeg-consumer": "^2.0.0",
+    "node-fetch": "^2.6.0",
+    "webdriverio": "^5.15.4",
+    "yarn": "^1.17.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.0",
+    "@wdio/allure-reporter": "^5.13.2",
+    "@wdio/browserstack-service": "^5.0.0",
+    "@wdio/junit-reporter": "^5.18.6",
+    "babel-eslint": "^10.0.3",
+    "babel-jest": "^24.8.0",
+    "eslint": "^6.0.0",
+    "eslint-plugin-import": "^2.18.0",
+    "forever": "^0.15.3",
+    "jest": "^24.8.0",
+    "npm-run-all": "^4.1.5"
+  }
+}

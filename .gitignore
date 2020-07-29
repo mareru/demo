@@ -1,0 +1,7 @@
+# Logs
+*.log
+yarn.lock
+node_modules
+/.idea
+/allure-results
+/junit-results
